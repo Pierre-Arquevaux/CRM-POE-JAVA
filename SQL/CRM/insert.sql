@@ -22,10 +22,10 @@ INSERT INTO client(id_adresse, nom_societe, mail, nom, prenom, telephone) VALUES
 (8,'gallerie la faillette','lux@gmail.com','de beau part', 'christelle','0682464652'),
 (9,'music','zigzag@hotmail.com', 'soldomi', 'sigmud','0523252434'),
 (10, 'Infotel', 'repojsdfp@gmail.com', 'Tartampion','Franklin', '0123456789'),
-(11, 'Grenat', 'repop@gmail.com', 'Tartampion','Franklin', '4512568978');
-
-INSERT INTO client (id_adresse,mail,nom,prenom,telephone) VALUES 
+(11, 'Grenat', 'repop@gmail.com', 'Tartampion','Franklin', '4512568978'),
 (12, 'dfp@gmail.com', 'Mère','Michèle', '9887655432');
+
+
 
 INSERT INTO produit (nom, prix) VALUES 
 ('lunettes', 250),
@@ -41,7 +41,7 @@ INSERT INTO produit (nom, prix) VALUES
 ('Chaussettes', 10),
 ('Pile', 1.50);
 
-INSERT INTO paniers(id_client) VALUES
+INSERT INTO panier(id_client) VALUES
 (4),
 (2),
 (1),
